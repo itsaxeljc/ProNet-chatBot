@@ -1,0 +1,303 @@
+{% load static %}
+{% load sass_tags %}
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-1.0">
+        <title>Chatbot</title>
+        <link rel="stylesheet" href="{% static '/style.css' %}">
+        <script type="type/javascript" src="{% static '/index.js' %}"></script>
+    </head>
+    <body>
+        <section class="msger">
+            <header class="msger-header">
+              <div class="msger-header-title">
+                <i class="fas fa-comment-alt"></i> Muse
+              </div>
+              <div class="msger-header-options">
+                <span><i class="fas fa-cog"></i></span>
+              </div>
+            </header>
+          
+            <main class="msger-chat">
+              <div class="msg left-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://cdn-icons-png.flaticon.com/512/1786/1786548.png)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">MUSEBOT</div>
+                    <div class="msg-info-time">12:45</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    Hola! Mi nombre es MuseBot, contestaré tus preguntas sobre esta plataforma y las opciones culturales de la ciudad de Tepic. Si quieres salir, escribe 'salir' 
+                  </div>
+                </div>
+              </div>
+          
+              <div class="msg right-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://scontent.ftpq1-1.fna.fbcdn.net/v/t1.6435-9/144960736_5229928053691890_61445195684548999_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEI50zIC3u1Z3mXFxXzSPmNNDXLRw7FPIk0NctHDsU8icKKmQtykgeGLqOGe79QMAY21V3UnS-YHeYPPUn4f8SC&_nc_ohc=CVR86SMUYUQAX9KpObf&tn=I4-S0ZGho_hW_HKE&_nc_ht=scontent.ftpq1-1.fna&oh=00_AT-OOTeg9rDUm9kRiGmBD5dt5VWF-36fjvHVz3n0LZQg3A&oe=62C59B5A)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">Axel</div>
+                    <div class="msg-info-time">12:46</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    Hola
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg left-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://cdn-icons-png.flaticon.com/512/1786/1786548.png)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">MUSEBOT</div>
+                    <div class="msg-info-time">12:45</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    Hola! ¿Qué tal?
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg right-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://scontent.ftpq1-1.fna.fbcdn.net/v/t1.6435-9/144960736_5229928053691890_61445195684548999_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEI50zIC3u1Z3mXFxXzSPmNNDXLRw7FPIk0NctHDsU8icKKmQtykgeGLqOGe79QMAY21V3UnS-YHeYPPUn4f8SC&_nc_ohc=CVR86SMUYUQAX9KpObf&tn=I4-S0ZGho_hW_HKE&_nc_ht=scontent.ftpq1-1.fna&oh=00_AT-OOTeg9rDUm9kRiGmBD5dt5VWF-36fjvHVz3n0LZQg3A&oe=62C59B5A)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">Axel</div>
+                    <div class="msg-info-time">12:46</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    ¿Qué es Muse?
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg left-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://cdn-icons-png.flaticon.com/512/1786/1786548.png)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">MUSEBOT</div>
+                    <div class="msg-info-time">12:45</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    Muse es una plataforma web que permite a museos, empresas enfocadas al desarrollo cultural, instituciones y artistas independientes conectar con más público, además permite a los turistas, locales y amantes del arte conocer a una ciudad desde una perspectiva completamente cultural.
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg right-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://scontent.ftpq1-1.fna.fbcdn.net/v/t1.6435-9/144960736_5229928053691890_61445195684548999_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEI50zIC3u1Z3mXFxXzSPmNNDXLRw7FPIk0NctHDsU8icKKmQtykgeGLqOGe79QMAY21V3UnS-YHeYPPUn4f8SC&_nc_ohc=CVR86SMUYUQAX9KpObf&tn=I4-S0ZGho_hW_HKE&_nc_ht=scontent.ftpq1-1.fna&oh=00_AT-OOTeg9rDUm9kRiGmBD5dt5VWF-36fjvHVz3n0LZQg3A&oe=62C59B5A)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">Axel</div>
+                    <div class="msg-info-time">12:46</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    ¿Cuántos museos hay en Tepic?
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg left-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://cdn-icons-png.flaticon.com/512/1786/1786548.png)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">MUSEBOT</div>
+                    <div class="msg-info-time">12:45</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    En Tepic, Nayarit hay 6 museos que puedes visitar.
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg right-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://scontent.ftpq1-1.fna.fbcdn.net/v/t1.6435-9/144960736_5229928053691890_61445195684548999_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEI50zIC3u1Z3mXFxXzSPmNNDXLRw7FPIk0NctHDsU8icKKmQtykgeGLqOGe79QMAY21V3UnS-YHeYPPUn4f8SC&_nc_ohc=CVR86SMUYUQAX9KpObf&tn=I4-S0ZGho_hW_HKE&_nc_ht=scontent.ftpq1-1.fna&oh=00_AT-OOTeg9rDUm9kRiGmBD5dt5VWF-36fjvHVz3n0LZQg3A&oe=62C59B5A)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">Axel</div>
+                    <div class="msg-info-time">12:46</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    ¿Dónde está el múseo interactivo?
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg left-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://cdn-icons-png.flaticon.com/512/1786/1786548.png)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">MUSEBOT</div>
+                    <div class="msg-info-time">12:45</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    El Museo Interactivo de Ciencias e Innovación de Nayarit está ubicado en Av de la Salud, Ciudad Industrial y está abierto al público de martes a domingo de 9 a 18 hrs.
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg right-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://scontent.ftpq1-1.fna.fbcdn.net/v/t1.6435-9/144960736_5229928053691890_61445195684548999_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEI50zIC3u1Z3mXFxXzSPmNNDXLRw7FPIk0NctHDsU8icKKmQtykgeGLqOGe79QMAY21V3UnS-YHeYPPUn4f8SC&_nc_ohc=CVR86SMUYUQAX9KpObf&tn=I4-S0ZGho_hW_HKE&_nc_ht=scontent.ftpq1-1.fna&oh=00_AT-OOTeg9rDUm9kRiGmBD5dt5VWF-36fjvHVz3n0LZQg3A&oe=62C59B5A)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">Axel</div>
+                    <div class="msg-info-time">12:46</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    ¿Cuánto cuesta la entrada al museo regional?
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg left-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://cdn-icons-png.flaticon.com/512/1786/1786548.png)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">MUSEBOT</div>
+                    <div class="msg-info-time">12:45</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    La entrada del Museo Regional de Nayarit tiene un costo de $65 mxn.
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg right-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://scontent.ftpq1-1.fna.fbcdn.net/v/t1.6435-9/144960736_5229928053691890_61445195684548999_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEI50zIC3u1Z3mXFxXzSPmNNDXLRw7FPIk0NctHDsU8icKKmQtykgeGLqOGe79QMAY21V3UnS-YHeYPPUn4f8SC&_nc_ohc=CVR86SMUYUQAX9KpObf&tn=I4-S0ZGho_hW_HKE&_nc_ht=scontent.ftpq1-1.fna&oh=00_AT-OOTeg9rDUm9kRiGmBD5dt5VWF-36fjvHVz3n0LZQg3A&oe=62C59B5A)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">Axel</div>
+                    <div class="msg-info-time">12:46</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    ¿Dónde está el múseo Juan Escutia?
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg left-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://cdn-icons-png.flaticon.com/512/1786/1786548.png)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">MUSEBOT</div>
+                    <div class="msg-info-time">12:45</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    La Casa Museo Juan Escutia está ubicado en Miguel Hidalgo 71, Centro y está abierto de martes a sábado de 10 a 14 hrs y de 16 a 19 hrs, el domingo de 9 a 14 hrs.
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg right-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://scontent.ftpq1-1.fna.fbcdn.net/v/t1.6435-9/144960736_5229928053691890_61445195684548999_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEI50zIC3u1Z3mXFxXzSPmNNDXLRw7FPIk0NctHDsU8icKKmQtykgeGLqOGe79QMAY21V3UnS-YHeYPPUn4f8SC&_nc_ohc=CVR86SMUYUQAX9KpObf&tn=I4-S0ZGho_hW_HKE&_nc_ht=scontent.ftpq1-1.fna&oh=00_AT-OOTeg9rDUm9kRiGmBD5dt5VWF-36fjvHVz3n0LZQg3A&oe=62C59B5A)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">Axel</div>
+                    <div class="msg-info-time">12:46</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    ¿Qué significa Tepic?
+                  </div>
+                </div>
+              </div>
+
+              <div class="msg left-msg">
+                <div
+                 class="msg-img"
+                 style="background-image: url(https://cdn-icons-png.flaticon.com/512/1786/1786548.png)"
+                ></div>
+          
+                <div class="msg-bubble">
+                  <div class="msg-info">
+                    <div class="msg-info-name">MUSEBOT</div>
+                    <div class="msg-info-time">12:45</div>
+                  </div>
+          
+                  <div class="msg-text">
+                    El nombre Tepic es de origen náhuatl, Tepic significa "Lugar de piedras macizas.
+                  </div>
+                </div>
+              </div>
+            </main>
+          
+            <form class="msger-inputarea">
+              <input type="text" class="msger-input" placeholder="Escribe una pregunta...">
+              <button type="submit" class="msger-send-btn">Enviar</button>
+            </form>
+          </section>
+    </body>
+</html>
